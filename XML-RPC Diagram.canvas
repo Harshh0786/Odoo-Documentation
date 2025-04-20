@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"0d2374d331c42a56","x":-120,"y":-170,"width":360,"height":100,"type":"group","label":"XML - RPC"},
+		{"id":"60f0394a24813257","x":-100,"y":-145,"width":110,"height":50,"type":"text","text":"XML"},
+		{"id":"010053e9b0ed1842","x":120,"y":-145,"width":110,"height":50,"type":"text","text":"XML"},
+		{"id":"76d5400123271355","x":-440,"y":-170,"width":220,"height":100,"color":"6","type":"text","text":"Third Party\nor\nWeb Client"},
+		{"id":"fa316cdf09300597","x":20,"y":0,"width":210,"height":60,"type":"text","text":"Odoo Server"},
+		{"id":"6e3d257d479ee16e","x":-280,"y":0,"width":250,"height":60,"type":"text","text":"Postgres Database"}
+	],
+	"edges":[
+		{"id":"804804d661740b9d","fromNode":"60f0394a24813257","fromSide":"right","toNode":"010053e9b0ed1842","toSide":"left"},
+		{"id":"e3184924143eaea4","fromNode":"60f0394a24813257","fromSide":"right","toNode":"010053e9b0ed1842","toSide":"left","label":"HTTP"},
+		{"id":"606113723c43ee89","fromNode":"76d5400123271355","fromSide":"right","toNode":"0d2374d331c42a56","toSide":"left"},
+		{"id":"d47561e12a9f78f9","fromNode":"0d2374d331c42a56","fromSide":"left","toNode":"76d5400123271355","toSide":"right"},
+		{"id":"df83f014a16ffd3c","fromNode":"0d2374d331c42a56","fromSide":"right","toNode":"fa316cdf09300597","toSide":"right"},
+		{"id":"28e0140d84d4c991","fromNode":"fa316cdf09300597","fromSide":"right","toNode":"0d2374d331c42a56","toSide":"right"},
+		{"id":"cd1a15107a77d648","fromNode":"fa316cdf09300597","fromSide":"left","toNode":"6e3d257d479ee16e","toSide":"right"},
+		{"id":"407830f3c4770f18","fromNode":"6e3d257d479ee16e","fromSide":"right","toNode":"fa316cdf09300597","toSide":"left"}
+	]
+}
